@@ -1,4 +1,4 @@
-package com.everis.becakotlinmvvm
+package com.everis.becakotlinmvvm.api
 
 import android.util.Log
 import androidx.lifecycle.MutableLiveData
@@ -7,7 +7,7 @@ import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
-class HolidayRepository {
+class HolidayRepository() {
 
     val TAG: String = javaClass.simpleName
 
